@@ -1,0 +1,101 @@
+SHORT NOTES ON LOOPS IN JAVA
+
+--------------------------------------------------
+1. FOR LOOP
+--------------------------------------------------
+
+Definition:
+The for loop is used when the number of iterations is known.
+
+Syntax:
+for(initialization; condition; update) {
+    // code
+}
+
+Example:
+for(int i = 1; i <= 5; i++) {
+    System.out.println(i);
+}
+
+Uses:
+- Counting loops
+- Fixed repetitions
+- Tables and patterns
+
+Key Point:
+Initialization, condition, and update are written in one line.
+
+
+--------------------------------------------------
+2. WHILE LOOP
+--------------------------------------------------
+
+Definition:
+The while loop is used when the number of iterations is unknown.
+
+Syntax:
+while(condition) {
+    // code
+}
+
+Example:
+int i = 1;
+
+while(i <= 5) {
+    System.out.println(i);
+    i++;
+}
+
+Uses:
+- Input-based loops
+- Login systems
+- Menu-driven programs
+
+Key Point:
+Condition is checked before execution.
+
+
+--------------------------------------------------
+3. DO-WHILE LOOP
+--------------------------------------------------
+
+Definition:
+The do-while loop executes the code at least once.
+
+Syntax:
+do {
+    // code
+} while(condition);
+
+Example:
+int i = 1;
+
+do {
+    System.out.println(i);
+    i++;
+} while(i <= 5);
+
+Uses:
+- Menu programs
+- Repeat choice systems
+
+Key Point:
+Condition is checked after execution.
+
+
+--------------------------------------------------
+MAIN DIFFERENCE
+--------------------------------------------------
+
+for loop      -> Known iterations
+while loop    -> Unknown iterations
+do-while loop -> Executes at least once
+
+
+--------------------------------------------------
+MEMORY TRICK
+--------------------------------------------------
+
+for       = Counted loop
+while     = Condition loop
+do-while  = Run first, check later
